@@ -1,0 +1,2465 @@
+{
+  "VFT#1480": [
+    {
+      "hash": "0x9de15e3bdfa7b3f4774d5a0b2aabe97e45b1dda5127c0ccaa8f129f87ffb107e",
+      "blockNum": "12420814",
+      "timestamp": "0x609c0b6d",
+      "type": "buy",
+      "asset_and_id": "VFT#1480",
+      "value_eth": -1.098020833333333,
+      "value_cad": -4921.856424999998
+    },
+    {
+      "hash": "0xeb285e0ac12867a6537ca4a8d737d56b646e4164ee39d95317f7b3b165e8a65b",
+      "blockNum": "12965612",
+      "timestamp": "0x610bfbac",
+      "type": "sale",
+      "asset_and_id": "VFT#1480",
+      "value_eth": 6.13375,
+      "value_cad": 21602.5768
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1": [
+    {
+      "hash": "0xb0e3d5bc85bf66b90fa66643f523570198d5bd9c181a910b4c4d9f42ca4b29c5",
+      "blockNum": "12716841",
+      "timestamp": "0x60d897e1",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": -0.175,
+      "value_cad": -427.02625
+    },
+    {
+      "hash": "0x3134171ca9253b9780511119816f2686b765215e47697a9df3ad7c6ff0733600",
+      "blockNum": "12717173",
+      "timestamp": "0x60d8a91a",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": -0.175,
+      "value_cad": -427.02625
+    },
+    {
+      "hash": "0x3134171ca9253b9780511119816f2686b765215e47697a9df3ad7c6ff0733600",
+      "blockNum": "12717173",
+      "timestamp": "0x60d8a91a",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": -0.175,
+      "value_cad": -427.02625
+    },
+    {
+      "hash": "0x27d923d0500734e719e0634582916a4aa5475df72bfffabc65f84f4f6c0bdc95",
+      "blockNum": "13063265",
+      "timestamp": "0x611fdb45",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": -3.25,
+      "value_cad": -13657.735
+    },
+    {
+      "hash": "0x069414e694af399e33fe20657d977558ee8d5047b1c3ec600f49c49a1ea495ee",
+      "blockNum": "13175305",
+      "timestamp": "0x6136ab7b",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x069414e694af399e33fe20657d977558ee8d5047b1c3ec600f49c49a1ea495ee",
+      "blockNum": "13175305",
+      "timestamp": "0x6136ab7b",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x069414e694af399e33fe20657d977558ee8d5047b1c3ec600f49c49a1ea495ee",
+      "blockNum": "13175305",
+      "timestamp": "0x6136ab7b",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x069414e694af399e33fe20657d977558ee8d5047b1c3ec600f49c49a1ea495ee",
+      "blockNum": "13175305",
+      "timestamp": "0x6136ab7b",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xb546f90fa119f3e3d7811cbf1af79362641957f30874b859fbb9b4656c08d476",
+      "blockNum": "13309857",
+      "timestamp": "0x615221b9",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": -7,
+      "value_cad": -25900
+    },
+    {
+      "hash": "0xffeee68c620d66f4b888bf1339d4d1b35ae03d7267010c238f08e064212aaf39",
+      "blockNum": "13343143",
+      "timestamp": "0x6158fc3d",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x51d918983e40c47a6631d5e3d05fd5dc49f8310843847a7025343a7b2da09eec",
+      "blockNum": "13687792",
+      "timestamp": "0x61a069b1",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#1",
+      "value_eth": -2.001,
+      "value_cad": -10328.3616
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8": [
+    {
+      "hash": "0x66faa58fcfdc69426f9432d7745813ac84339bb8c2cbad560d6ad86304df1be8",
+      "blockNum": "12716869",
+      "timestamp": "0x60d8990e",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": -0.035,
+      "value_cad": -85.40525000000001
+    },
+    {
+      "hash": "0xf834c64eea5409b9b8160796cf2999da4768f06e59f38f06ca03aab0cbebb3a4",
+      "blockNum": "12717178",
+      "timestamp": "0x60d8a994",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": -0.04,
+      "value_cad": -97.60600000000001
+    },
+    {
+      "hash": "0xf834c64eea5409b9b8160796cf2999da4768f06e59f38f06ca03aab0cbebb3a4",
+      "blockNum": "12717178",
+      "timestamp": "0x60d8a994",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": -0.04,
+      "value_cad": -97.60600000000001
+    },
+    {
+      "hash": "0xf834c64eea5409b9b8160796cf2999da4768f06e59f38f06ca03aab0cbebb3a4",
+      "blockNum": "12717178",
+      "timestamp": "0x60d8a994",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": -0.04,
+      "value_cad": -97.60600000000001
+    },
+    {
+      "hash": "0xf834c64eea5409b9b8160796cf2999da4768f06e59f38f06ca03aab0cbebb3a4",
+      "blockNum": "12717178",
+      "timestamp": "0x60d8a994",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": -0.04,
+      "value_cad": -97.60600000000001
+    },
+    {
+      "hash": "0xf834c64eea5409b9b8160796cf2999da4768f06e59f38f06ca03aab0cbebb3a4",
+      "blockNum": "12717178",
+      "timestamp": "0x60d8a994",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": -0.04,
+      "value_cad": -97.60600000000001
+    },
+    {
+      "hash": "0x8a544bebdd7ac65ce4bce84f33767885dbfd052538595b79228187728a597766",
+      "blockNum": "12952127",
+      "timestamp": "0x61092c68",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": 0.3859035,
+      "value_cad": 1203.598285185
+    },
+    {
+      "hash": "0x8a544bebdd7ac65ce4bce84f33767885dbfd052538595b79228187728a597766",
+      "blockNum": "12952127",
+      "timestamp": "0x61092c68",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": 0.3859035,
+      "value_cad": 1203.598285185
+    },
+    {
+      "hash": "0x3c3763192683c336ea5235b1b39161fd3eb446f19eb6036144ea0ad4048585ae",
+      "blockNum": "12952246",
+      "timestamp": "0x610932ae",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": 0.4824035,
+      "value_cad": 1504.573100185
+    },
+    {
+      "hash": "0x200edf1d9934af9218694d48ef5c962ddd80d4f99ce88fe033708866c2ee16b4",
+      "blockNum": "13017978",
+      "timestamp": "0x6116a178",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": -0.4,
+      "value_cad": -1664.92
+    },
+    {
+      "hash": "0x0fe54839151e1132e31b27073dc63f486f9fdfb63014698e2a726aee605613dd",
+      "blockNum": "13084539",
+      "timestamp": "0x61242ee6",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": 1.2061535,
+      "value_cad": 4951.634025085001
+    },
+    {
+      "hash": "0x09226d8fe060de59e4686a9efe16c4b9ec6585c8f85514dbbd37c93186af59f9",
+      "blockNum": "13088037",
+      "timestamp": "0x6124e719",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": 1.4377535,
+      "value_cad": 5738.56305469
+    },
+    {
+      "hash": "0xda69295b838e0b94ca89721a6d361705855167575685b967d00c1b97d444b1b6",
+      "blockNum": "13367702",
+      "timestamp": "0x615e0d47",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": -1.07,
+      "value_cad": -4786.1421
+    },
+    {
+      "hash": "0x7ad6f7d775635dc908e876a92b70d549b3b5e9557a29b8cb18b4834ee39f7ee9",
+      "blockNum": "13372376",
+      "timestamp": "0x615f06e6",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#8",
+      "value_eth": -1.05,
+      "value_cad": -4695.610500000001
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#10": [
+    {
+      "hash": "0x5d1a6f1e0e047c3e8ebf217d538d026f8c9a3805a6e8319340faf1971e5caa89",
+      "blockNum": "12716877",
+      "timestamp": "0x60d8996f",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#10",
+      "value_eth": -0.029,
+      "value_cad": -70.76435000000001
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#7": [
+    {
+      "hash": "0x116c1c5b47091e7cf23655799db42b773712edac6accce064c378d5c67491fe0",
+      "blockNum": "12716901",
+      "timestamp": "0x60d89b2a",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#7",
+      "value_eth": -0.019,
+      "value_cad": -46.36285
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#9": [
+    {
+      "hash": "0x96ece8785835cf34923a53335aaf1c2f40cee57714fb40ed37c38044f7cc4b36",
+      "blockNum": "12716954",
+      "timestamp": "0x60d89d8e",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#9",
+      "value_eth": -0.027,
+      "value_cad": -65.88405
+    },
+    {
+      "hash": "0x6bb7b3cd04559ffaca00e483c08fcabba6dabe1e9bbe3c55562e650f58a70cef",
+      "blockNum": "13373960",
+      "timestamp": "0x615f5903",
+      "type": "transfer_in",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#9",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#3": [
+    {
+      "hash": "0xbc2acec347b157f1a2309f7b2ab40843baae6f26374bbeed39267acdf5a9eb01",
+      "blockNum": "12716978",
+      "timestamp": "0x60d89e9c",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#3",
+      "value_eth": -0.035,
+      "value_cad": -85.40525000000001
+    },
+    {
+      "hash": "0xbc2acec347b157f1a2309f7b2ab40843baae6f26374bbeed39267acdf5a9eb01",
+      "blockNum": "12716978",
+      "timestamp": "0x60d89e9c",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#3",
+      "value_eth": -0.035,
+      "value_cad": -85.40525000000001
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#2": [
+    {
+      "hash": "0xac19d72932179ea6aece47c33a0fb8814579e7ff663844a453f9f3f4ab029680",
+      "blockNum": "12716994",
+      "timestamp": "0x60d89f68",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#2",
+      "value_eth": -0.06999999999999999,
+      "value_cad": -170.8105
+    },
+    {
+      "hash": "0xac19d72932179ea6aece47c33a0fb8814579e7ff663844a453f9f3f4ab029680",
+      "blockNum": "12716994",
+      "timestamp": "0x60d89f68",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#2",
+      "value_eth": -0.06999999999999999,
+      "value_cad": -170.8105
+    },
+    {
+      "hash": "0xac19d72932179ea6aece47c33a0fb8814579e7ff663844a453f9f3f4ab029680",
+      "blockNum": "12716994",
+      "timestamp": "0x60d89f68",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#2",
+      "value_eth": -0.06999999999999999,
+      "value_cad": -170.8105
+    },
+    {
+      "hash": "0xac19d72932179ea6aece47c33a0fb8814579e7ff663844a453f9f3f4ab029680",
+      "blockNum": "12716994",
+      "timestamp": "0x60d89f68",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#2",
+      "value_eth": -0.06999999999999999,
+      "value_cad": -170.8105
+    },
+    {
+      "hash": "0xac19d72932179ea6aece47c33a0fb8814579e7ff663844a453f9f3f4ab029680",
+      "blockNum": "12716994",
+      "timestamp": "0x60d89f68",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#2",
+      "value_eth": -0.06999999999999999,
+      "value_cad": -170.8105
+    },
+    {
+      "hash": "0xd4c42b547ae1070bc5b198396b7a19e70a51f690df05bfdcb56b91a6e9ebfea7",
+      "blockNum": "12952167",
+      "timestamp": "0x61092e3c",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#2",
+      "value_eth": 1.2545,
+      "value_cad": 3912.6725949999995
+    },
+    {
+      "hash": "0xf4875faad869fb9f2cb84c9001b9819596e655e5ea57144a83a537be5b2292cf",
+      "blockNum": "13140079",
+      "timestamp": "0x612f80e2",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#2",
+      "value_eth": 2.2204650000000004,
+      "value_cad": 10641.667331100001
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#4": [
+    {
+      "hash": "0x839d61c264b3d69d5de27d161edc60418e5ad26c189a9436dbfded6d163fc262",
+      "blockNum": "12717069",
+      "timestamp": "0x60d8a343",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#4",
+      "value_eth": -0.17,
+      "value_cad": -414.82550000000003
+    },
+    {
+      "hash": "0xb03248a71da7c1d82def30b5885793a7db8e28a95f8d56514cf48b40240a89ce",
+      "blockNum": "13343141",
+      "timestamp": "0x6158fc22",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#4",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#5": [
+    {
+      "hash": "0x5fdd9a16664b2501dcadab7f0b0a063b0563f7d9c8a51d65dfddddc793d4c4e8",
+      "blockNum": "12717072",
+      "timestamp": "0x60d8a372",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#5",
+      "value_eth": -0.225,
+      "value_cad": -549.03375
+    },
+    {
+      "hash": "0x1b6f8c62c99de25fa90a79c475beef2b07097b1fe1f63da3c58b6405b8e19664",
+      "blockNum": "13343137",
+      "timestamp": "0x6158fbfc",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#5",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#6": [
+    {
+      "hash": "0x846b3ea6b3ffff838c245ccebe99d347f0ee7f88e1e657922a9a00dde34761a3",
+      "blockNum": "12717075",
+      "timestamp": "0x60d8a39a",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#6",
+      "value_eth": -0.2,
+      "value_cad": -488.03000000000003
+    },
+    {
+      "hash": "0x143c57a40c5f0365097e16348205af14fbbd4fcb90e15f88ede92dd1ac25697f",
+      "blockNum": "13343137",
+      "timestamp": "0x6158fbfc",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#6",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#20": [
+    {
+      "hash": "0x70f1c50d57fb2357f3d1114c549b47c1387abcd54629f22eb0829bf990b67759",
+      "blockNum": "12717079",
+      "timestamp": "0x60d8a3cf",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#20",
+      "value_eth": -0.02,
+      "value_cad": -48.803000000000004
+    },
+    {
+      "hash": "0x70f1c50d57fb2357f3d1114c549b47c1387abcd54629f22eb0829bf990b67759",
+      "blockNum": "12717079",
+      "timestamp": "0x60d8a3cf",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#20",
+      "value_eth": -0.02,
+      "value_cad": -48.803000000000004
+    },
+    {
+      "hash": "0x70f1c50d57fb2357f3d1114c549b47c1387abcd54629f22eb0829bf990b67759",
+      "blockNum": "12717079",
+      "timestamp": "0x60d8a3cf",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#20",
+      "value_eth": -0.02,
+      "value_cad": -48.803000000000004
+    },
+    {
+      "hash": "0x70f1c50d57fb2357f3d1114c549b47c1387abcd54629f22eb0829bf990b67759",
+      "blockNum": "12717079",
+      "timestamp": "0x60d8a3cf",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#20",
+      "value_eth": -0.02,
+      "value_cad": -48.803000000000004
+    },
+    {
+      "hash": "0x70f1c50d57fb2357f3d1114c549b47c1387abcd54629f22eb0829bf990b67759",
+      "blockNum": "12717079",
+      "timestamp": "0x60d8a3cf",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#20",
+      "value_eth": -0.02,
+      "value_cad": -48.803000000000004
+    },
+    {
+      "hash": "0xbf5facb9a83846044827f86ce15075dbbc93d043771ed3887271dac889e36de5",
+      "blockNum": "12952166",
+      "timestamp": "0x61092e2c",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#20",
+      "value_eth": 0.2894035,
+      "value_cad": 902.6234701849999
+    },
+    {
+      "hash": "0xe11d84b124eaff53f13e04e6890aaea897cdbfd3337fbcfb1ef57aa280541a63",
+      "blockNum": "12952349",
+      "timestamp": "0x6109387e",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#20",
+      "value_eth": 0.2895,
+      "value_cad": 902.9244449999999
+    },
+    {
+      "hash": "0x47b9277da9ca7556c504f1186b6a2b44fde4c7856ee890015e8f0ce80a3e3ab0",
+      "blockNum": "13088114",
+      "timestamp": "0x6124eac7",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#20",
+      "value_eth": 1.2545,
+      "value_cad": 5007.13603
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#13": [
+    {
+      "hash": "0xeb808582c0caff9fb7b3072230427872098694205ca4bb5d1a482e00d7a243ed",
+      "blockNum": "12717090",
+      "timestamp": "0x60d8a4cd",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#13",
+      "value_eth": -0.016,
+      "value_cad": -39.0424
+    },
+    {
+      "hash": "0xeb808582c0caff9fb7b3072230427872098694205ca4bb5d1a482e00d7a243ed",
+      "blockNum": "12717090",
+      "timestamp": "0x60d8a4cd",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#13",
+      "value_eth": -0.016,
+      "value_cad": -39.0424
+    },
+    {
+      "hash": "0x602c650a26aab7c08b45fb6a4da9ad3a1a2e550e3fe4fc63221345fdc33c8a04",
+      "blockNum": "12952322",
+      "timestamp": "0x610936a1",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#13",
+      "value_eth": 0.3376535,
+      "value_cad": 1053.1108776849999
+    }
+  ],
+  "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#30": [
+    {
+      "hash": "0xa51e7e74c97694b789e652fa74247cc21d446ee838295d0c0f5b73960334106a",
+      "blockNum": "12717351",
+      "timestamp": "0x60d8b301",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#30",
+      "value_eth": -0.085,
+      "value_cad": -207.41275000000002
+    },
+    {
+      "hash": "0xa51e7e74c97694b789e652fa74247cc21d446ee838295d0c0f5b73960334106a",
+      "blockNum": "12717351",
+      "timestamp": "0x60d8b301",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#30",
+      "value_eth": -0.085,
+      "value_cad": -207.41275000000002
+    },
+    {
+      "hash": "0xa51e7e74c97694b789e652fa74247cc21d446ee838295d0c0f5b73960334106a",
+      "blockNum": "12717351",
+      "timestamp": "0x60d8b301",
+      "type": "buy",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#30",
+      "value_eth": -0.085,
+      "value_cad": -207.41275000000002
+    },
+    {
+      "hash": "0x51051377334142b50c742374fefb1feb3a922be6f94be417c8974251c073d561",
+      "blockNum": "12966096",
+      "timestamp": "0x610c156d",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#30",
+      "value_eth": 2.8756035,
+      "value_cad": 10127.64547872
+    },
+    {
+      "hash": "0x4dae7157d247babb8631010022d8e383abbeee9af0a124e0a62aec9b196bd27a",
+      "blockNum": "13088044",
+      "timestamp": "0x6124e7cf",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#30",
+      "value_eth": 3.84842,
+      "value_cad": 15360.352682800001
+    },
+    {
+      "hash": "0x99ac914444c35f87b62f1e5596b14c08519b18dd3ff9f501293e08be00974bf0",
+      "blockNum": "13094292",
+      "timestamp": "0x612628e3",
+      "type": "sale",
+      "asset_and_id": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313#30",
+      "value_eth": 7.1409035,
+      "value_cad": 28957.93469127
+    }
+  ],
+  "DEAD#1429": [
+    {
+      "hash": "0xea56097f2abc7fb6a78d457e8c6c3d4ed06086cbbf9ad282c28daade0910c3c7",
+      "blockNum": "12770728",
+      "timestamp": "0x60e3a3c4",
+      "type": "buy",
+      "asset_and_id": "DEAD#1429",
+      "value_eth": -0.28,
+      "value_cad": -804.9328000000002
+    }
+  ],
+  "DEAD#2659": [
+    {
+      "hash": "0xb8ba1c3f17446a1174b0063f0985bfde31d3c7302ad2aea01980de1be72b44e4",
+      "blockNum": "12770745",
+      "timestamp": "0x60e3a4db",
+      "type": "buy",
+      "asset_and_id": "DEAD#2659",
+      "value_eth": -0.2899,
+      "value_cad": -833.392924
+    }
+  ],
+  "DEAD#1185": [
+    {
+      "hash": "0xb1d81dedd486f601217e40294018590426c9add6004b459e27b30c007bddaee5",
+      "blockNum": "12770755",
+      "timestamp": "0x60e3a597",
+      "type": "buy",
+      "asset_and_id": "DEAD#1185",
+      "value_eth": -0.29,
+      "value_cad": -833.6804
+    }
+  ],
+  "DEAD#3374": [
+    {
+      "hash": "0x6a01621f73ba39e0887246ca6d59625982379f01712c778127ee03908af1c811",
+      "blockNum": "12770760",
+      "timestamp": "0x60e3a5ba",
+      "type": "buy",
+      "asset_and_id": "DEAD#3374",
+      "value_eth": -0.29,
+      "value_cad": -833.6804
+    }
+  ],
+  "DEAD#8322": [
+    {
+      "hash": "0x62f0c91246a0a307ae042d3fbfc695906d90a1002870365e2e4bd4dd2ea06501",
+      "blockNum": "12770773",
+      "timestamp": "0x60e3a638",
+      "type": "buy",
+      "asset_and_id": "DEAD#8322",
+      "value_eth": -0.29,
+      "value_cad": -833.6804
+    },
+    {
+      "hash": "0x17c7caeeef6d7da5ba37d5f0c8f746f8a06c91fa9aae2851423c9dd258489c66",
+      "blockNum": "13706808",
+      "timestamp": "0x61a46700",
+      "type": "sale",
+      "asset_and_id": "DEAD#8322",
+      "value_eth": 0.2133,
+      "value_cad": 1203.193305
+    }
+  ],
+  "HASHDEMONS#2697": [
+    {
+      "hash": "0xa2a65635cd4fd9d3367a1e85a1edec7fccc7527f8375b66566029aac7e3440da",
+      "blockNum": "12776755",
+      "timestamp": "0x60e4e199",
+      "type": "buy",
+      "asset_and_id": "HASHDEMONS#2697",
+      "value_eth": -0.05,
+      "value_cad": -143.73800000000003
+    }
+  ],
+  "null#1.0845274305300026e+77": [
+    {
+      "hash": "0xc0afe825b21e631610b63be910ebf6ac861fca8628d856f87e06c6b7e02c65e2",
+      "blockNum": "12780511",
+      "timestamp": "0x60e5a98b",
+      "type": "buy",
+      "asset_and_id": "null#1.0845274305300026e+77",
+      "value_eth": -0.004204446638415555,
+      "value_cad": -12.109058585435104
+    },
+    {
+      "hash": "0x26b3d14ecb3cfca09b6998af5d2ba2cebaa6ff1222b266e1a18993fa38be2dd4",
+      "blockNum": "13347868",
+      "timestamp": "0x6159f712",
+      "type": "transfer_out",
+      "asset_and_id": "null#1.0845274305300026e+77",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xc95482167525a8b61a1554ae6188e3101bc89947a13edbc8ff038878e2339f54",
+      "blockNum": "13576416",
+      "timestamp": "0x618939f5",
+      "type": "transfer_in",
+      "asset_and_id": "null#1.0845274305300026e+77",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "?#12799": [
+    {
+      "hash": "0x2f03dbad14997c3a80aaf7f9fea674172d7d553d73c58b3a4507032348c2c701",
+      "blockNum": "12841708",
+      "timestamp": "0x60f2428a",
+      "type": "buy",
+      "asset_and_id": "?#12799",
+      "value_eth": -0.3,
+      "value_cad": -718.4909999999999
+    },
+    {
+      "hash": "0x1f25f0f5a62de9a2f29a11895a12462f55659056144f2e563816e13ed12142f4",
+      "blockNum": "13091693",
+      "timestamp": "0x6125a2c2",
+      "type": "sale",
+      "asset_and_id": "?#12799",
+      "value_eth": 0.945,
+      "value_cad": 3832.1829
+    }
+  ],
+  "?#8916": [
+    {
+      "hash": "0xdd631b9d3d18f69cae3a09ad0592126956e5c15e2a75a0c797e7d97e2bb5af7e",
+      "blockNum": "12841747",
+      "timestamp": "0x60f24463",
+      "type": "buy",
+      "asset_and_id": "?#8916",
+      "value_eth": -0.3,
+      "value_cad": -718.4909999999999
+    },
+    {
+      "hash": "0x572387ad65d13f3fbe3c34aae2dc94064964b641ef32b1fe67eb81e0d57fd78d",
+      "blockNum": "12983432",
+      "timestamp": "0x610f9bd3",
+      "type": "sale",
+      "asset_and_id": "?#8916",
+      "value_eth": 0.756,
+      "value_cad": 2827.2131999999997
+    }
+  ],
+  "CRYPTINIES#364": [
+    {
+      "hash": "0x003ab8d61e5a8c8e0fbe3d2fd1698d49f650859eead167b2de9f038f84a36566",
+      "blockNum": "12871555",
+      "timestamp": "0x60f87042",
+      "type": "swap",
+      "asset_and_id": "CRYPTINIES#364",
+      "value_eth": -0.04,
+      "value_cad": -100.096
+    }
+  ],
+  "CRYPTINIES#365": [
+    {
+      "hash": "0x003ab8d61e5a8c8e0fbe3d2fd1698d49f650859eead167b2de9f038f84a36566",
+      "blockNum": "12871555",
+      "timestamp": "0x60f87042",
+      "type": "swap",
+      "asset_and_id": "CRYPTINIES#365",
+      "value_eth": -0.04,
+      "value_cad": -100.096
+    }
+  ],
+  "CRYPTINIES#366": [
+    {
+      "hash": "0x003ab8d61e5a8c8e0fbe3d2fd1698d49f650859eead167b2de9f038f84a36566",
+      "blockNum": "12871555",
+      "timestamp": "0x60f87042",
+      "type": "swap",
+      "asset_and_id": "CRYPTINIES#366",
+      "value_eth": -0.04,
+      "value_cad": -100.096
+    }
+  ],
+  "CRYPTINIES#367": [
+    {
+      "hash": "0x003ab8d61e5a8c8e0fbe3d2fd1698d49f650859eead167b2de9f038f84a36566",
+      "blockNum": "12871555",
+      "timestamp": "0x60f87042",
+      "type": "swap",
+      "asset_and_id": "CRYPTINIES#367",
+      "value_eth": -0.04,
+      "value_cad": -100.096
+    }
+  ],
+  "CRYPTINIES#368": [
+    {
+      "hash": "0x003ab8d61e5a8c8e0fbe3d2fd1698d49f650859eead167b2de9f038f84a36566",
+      "blockNum": "12871555",
+      "timestamp": "0x60f87042",
+      "type": "swap",
+      "asset_and_id": "CRYPTINIES#368",
+      "value_eth": -0.04,
+      "value_cad": -100.096
+    }
+  ],
+  "WLPS#2613": [
+    {
+      "hash": "0xdf327be03f9cc8ba253b588690d303afa95d57d83de3105caef52d00605a5303",
+      "blockNum": "12910234",
+      "timestamp": "0x61006f2e",
+      "type": "buy",
+      "asset_and_id": "WLPS#2613",
+      "value_eth": -0.0777,
+      "value_cad": -224.642355
+    }
+  ],
+  "WOW#9828": [
+    {
+      "hash": "0x108fb0e9d5e06b08b4aa6d888d51bfd85cff0de57d2116af2c77102b26a0de31",
+      "blockNum": "12912151",
+      "timestamp": "0x6100d387",
+      "type": "buy",
+      "asset_and_id": "WOW#9828",
+      "value_eth": -0.07,
+      "value_cad": -200.79850000000002
+    },
+    {
+      "hash": "0xfeebb265fec740f4758281f26b044a504f331cc70fde3beda7d7612a57ec9dcc",
+      "blockNum": "12981434",
+      "timestamp": "0x610f322b",
+      "type": "sale",
+      "asset_and_id": "WOW#9828",
+      "value_eth": 0.9349065,
+      "value_cad": 3496.2698380499996
+    }
+  ],
+  "WOW#9892": [
+    {
+      "hash": "0x8357d3aa22874b452aa677b2e93b47e934d955043e496059d9d7438730589a83",
+      "blockNum": "12912154",
+      "timestamp": "0x6100d3ab",
+      "type": "swap",
+      "asset_and_id": "WOW#9892",
+      "value_eth": -0.07,
+      "value_cad": -200.79850000000002
+    },
+    {
+      "hash": "0x83698dd91e150ba7e143230afc4d97af2cb7061d18a88456a583b18ba5e0b1d8",
+      "blockNum": "12948271",
+      "timestamp": "0x61085f51",
+      "type": "sale",
+      "asset_and_id": "WOW#9892",
+      "value_eth": 0.6919,
+      "value_cad": 2246.1080509999997
+    }
+  ],
+  "WOW#9893": [
+    {
+      "hash": "0x8357d3aa22874b452aa677b2e93b47e934d955043e496059d9d7438730589a83",
+      "blockNum": "12912154",
+      "timestamp": "0x6100d3ab",
+      "type": "swap",
+      "asset_and_id": "WOW#9893",
+      "value_eth": -0.07,
+      "value_cad": -200.79850000000002
+    },
+    {
+      "hash": "0x2d4a8dabf644046967529406279b0d5172cc4e8f8f1957614d36a72c6e5b3b06",
+      "blockNum": "13114511",
+      "timestamp": "0x612a4c71",
+      "type": "sale",
+      "asset_and_id": "WOW#9893",
+      "value_eth": 4.2075,
+      "value_cad": 17253.232425
+    }
+  ],
+  "DIZZY#3226": [
+    {
+      "hash": "0xba43fcd80091749c138fe999fd17182007b988ac39036ba7b4dc55e2329595bb",
+      "blockNum": "12929452",
+      "timestamp": "0x610472ed",
+      "type": "swap",
+      "asset_and_id": "DIZZY#3226",
+      "value_eth": -0.025,
+      "value_cad": -76.6425
+    },
+    {
+      "hash": "0x42ee1b0ea70a57d07aa7a950b2a09a5a6fd953cd2d0fa993048c382fd0be2f93",
+      "blockNum": "13302419",
+      "timestamp": "0x61509cf1",
+      "type": "sale",
+      "asset_and_id": "DIZZY#3226",
+      "value_eth": 0.111,
+      "value_cad": 429.50673
+    }
+  ],
+  "DIZZY#3227": [
+    {
+      "hash": "0xba43fcd80091749c138fe999fd17182007b988ac39036ba7b4dc55e2329595bb",
+      "blockNum": "12929452",
+      "timestamp": "0x610472ed",
+      "type": "swap",
+      "asset_and_id": "DIZZY#3227",
+      "value_eth": -0.025,
+      "value_cad": -76.6425
+    }
+  ],
+  "DIZZY#3235": [
+    {
+      "hash": "0xb28721cdb791f92085e65ce82530025864ce0603879dfa8010e114cd656e82e4",
+      "blockNum": "12929492",
+      "timestamp": "0x610475a1",
+      "type": "buy",
+      "asset_and_id": "DIZZY#3235",
+      "value_eth": -0.02,
+      "value_cad": -61.314
+    },
+    {
+      "hash": "0x6e628cb8b6f308cceb86c1e81cac1cb508eac44dbbef02745966356c20787438",
+      "blockNum": "13302042",
+      "timestamp": "0x61508a78",
+      "type": "sale",
+      "asset_and_id": "DIZZY#3235",
+      "value_eth": 0.111,
+      "value_cad": 429.50673
+    }
+  ],
+  "BLOCKS#88000689": [
+    {
+      "hash": "0x2d56b64a602c0eefbc9cc366543a859d65b6dddd7462caa65e06cf08c25460b4",
+      "blockNum": "12946052",
+      "timestamp": "0x6107eaab",
+      "type": "buy",
+      "asset_and_id": "BLOCKS#88000689",
+      "value_eth": -0.1989,
+      "value_cad": -645.6870809999999
+    }
+  ],
+  "COMIC#4578": [
+    {
+      "hash": "0xfc3121e2adfd04d61b4131c4c06680e55cb97c5374cb5b46392ed360040f5493",
+      "blockNum": "12948030",
+      "timestamp": "0x61085259",
+      "type": "buy",
+      "asset_and_id": "COMIC#4578",
+      "value_eth": -1.8,
+      "value_cad": -5843.322
+    },
+    {
+      "hash": "0xcd3ce296ee0d4f8f9889e4ba5c74503d57be63c77168cd6dbecacc7c6f75f96b",
+      "blockNum": "12948080",
+      "timestamp": "0x6108553a",
+      "type": "swap",
+      "asset_and_id": "COMIC#4578",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "PVFD#3853": [
+    {
+      "hash": "0xcd3ce296ee0d4f8f9889e4ba5c74503d57be63c77168cd6dbecacc7c6f75f96b",
+      "blockNum": "12948080",
+      "timestamp": "0x6108553a",
+      "type": "swap",
+      "asset_and_id": "PVFD#3853",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xc25190f8c232f482efda57b8f4fb2ba683fd0b25d0c4474d07a44542e6bdcdc4",
+      "blockNum": "13146423",
+      "timestamp": "0x6130cc74",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "PVFD#3853",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xcf9f60df378b294d1e44e4f4d521fe00056bf8abd8109302de5736a0861098f6",
+      "blockNum": "13621128",
+      "timestamp": "0x61927d86",
+      "type": "sale",
+      "asset_and_id": "PVFD#3853",
+      "value_eth": 2.421,
+      "value_cad": 13779.290969999998
+    }
+  ],
+  "FVARIAXOPENEDITIONBYFVCKRENDER#27000010342": [
+    {
+      "hash": "0x5047cd8b061e92360b8da97f20414b7a969e6e0663f0971ca01364ad49760448",
+      "blockNum": "12948252",
+      "timestamp": "0x61085e5c",
+      "type": "transfer_in",
+      "asset_and_id": "FVARIAXOPENEDITIONBYFVCKRENDER#27000010342",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x8ae3297fff38da0205fb848c3afd7fe7883e7a217b706694ec0491cfa29e0029",
+      "blockNum": "12992502",
+      "timestamp": "0x6111701e",
+      "type": "swap",
+      "asset_and_id": "FVARIAXOPENEDITIONBYFVCKRENDER#27000010342",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "⚇#2468": [
+    {
+      "hash": "0xd5d08c11a20357da140f0eb68fed4b4e78241ad3c7607fdbf6bd2f7fc30addb3",
+      "blockNum": "12966501",
+      "timestamp": "0x610c2a82",
+      "type": "buy",
+      "asset_and_id": "⚇#2468",
+      "value_eth": -2.74,
+      "value_cad": -9650.060800000001
+    },
+    {
+      "hash": "0x1550c18095ec845b042b70a2071a8be0dfd3ca15b4c2e6749ffa181574fdc24e",
+      "blockNum": "13146433",
+      "timestamp": "0x6130ccd7",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "⚇#2468",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xa84a0ae8dd778f56ab0ed5e136e78b31d164f68dd01980edb71e4e1c9bad05b6",
+      "blockNum": "13630843",
+      "timestamp": "0x6194859f",
+      "type": "sale",
+      "asset_and_id": "⚇#2468",
+      "value_eth": 3.705,
+      "value_cad": 20062.83435
+    }
+  ],
+  "⚇#10387": [
+    {
+      "hash": "0xc9d846b33af9c9ea9cdd6c7f966c316301296a904d8df1c909d74dc645d98c6d",
+      "blockNum": "12966528",
+      "timestamp": "0x610c2c1e",
+      "type": "buy",
+      "asset_and_id": "⚇#10387",
+      "value_eth": -3.3,
+      "value_cad": -11622.336
+    },
+    {
+      "hash": "0xbd8db9da8c8414eb92436a91e4ff479f74fc72cddfc2e571a122f4c786ee8cf4",
+      "blockNum": "13144145",
+      "timestamp": "0x613052de",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "⚇#10387",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "EXSTASISBYREUBENWU#45000040036": [
+    {
+      "hash": "0x258e22383c4146626e6f92e69a71d329d6cdcd549d5ad11628fbc402dff47304",
+      "blockNum": "12966583",
+      "timestamp": "0x610c2f2f",
+      "type": "transfer_in",
+      "asset_and_id": "EXSTASISBYREUBENWU#45000040036",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x1158034ed3c326b8db2b626e409c148f34eb3da0e507abb5cfd1efb9cc7a20b9",
+      "blockNum": "13348883",
+      "timestamp": "0x615a2c78",
+      "type": "sale",
+      "asset_and_id": "EXSTASISBYREUBENWU#45000040036",
+      "value_eth": 0.4875,
+      "value_cad": 2062.090875
+    }
+  ],
+  "CRYST#1307": [
+    {
+      "hash": "0x8ae3297fff38da0205fb848c3afd7fe7883e7a217b706694ec0491cfa29e0029",
+      "blockNum": "12992502",
+      "timestamp": "0x6111701e",
+      "type": "swap",
+      "asset_and_id": "CRYST#1307",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x25557d8340424fb0e1bd1526bf418076bf6103ef4fa6958f017410e7f3dfcfce",
+      "blockNum": "13063198",
+      "timestamp": "0x611fd813",
+      "type": "transfer_out",
+      "asset_and_id": "CRYST#1307",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xa6a53aabe3d7e12667fac8f6f465d82a87b2d2286f094df55e659e75e5e3cb08",
+      "blockNum": "13083495",
+      "timestamp": "0x6123f961",
+      "type": "transfer_in",
+      "asset_and_id": "CRYST#1307",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xab01fe2b1c5e1fef18a0360116d21ab0412dc2b1c7d9e97939d4c72234dbb572",
+      "blockNum": "13343134",
+      "timestamp": "0x6158fba9",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "CRYST#1307",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "CRYST#1308": [
+    {
+      "hash": "0x8ae3297fff38da0205fb848c3afd7fe7883e7a217b706694ec0491cfa29e0029",
+      "blockNum": "12992502",
+      "timestamp": "0x6111701e",
+      "type": "swap",
+      "asset_and_id": "CRYST#1308",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x8e53bdf406389afedd9c5b70e66630a078fce19b1d4a4653c9f7b13a228da210",
+      "blockNum": "13063195",
+      "timestamp": "0x611fd808",
+      "type": "transfer_out",
+      "asset_and_id": "CRYST#1308",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x0d9ac3e2aa01eff0e856c79cd33cbb09abb1f05281ad1df245e794e4aadf75f7",
+      "blockNum": "13083498",
+      "timestamp": "0x6123f972",
+      "type": "transfer_in",
+      "asset_and_id": "CRYST#1308",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xd68f063122a8271a1177cb817e803a883d0acca58c63a0fdc323a677f4256127",
+      "blockNum": "13343131",
+      "timestamp": "0x6158fb84",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "CRYST#1308",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "CRYST#3216": [
+    {
+      "hash": "0x821a07bd273d75e75367028d1cf2dd4d57f82d9b9c06b6652f8f38e59b5c83d6",
+      "blockNum": "12993051",
+      "timestamp": "0x61118b3f",
+      "type": "buy",
+      "asset_and_id": "CRYST#3216",
+      "value_eth": -1.99,
+      "value_cad": -7900.499
+    },
+    {
+      "hash": "0x501217217eaa9872559b920c2d54f738c3fb3da2aa17cd99110f185290652a12",
+      "blockNum": "13063195",
+      "timestamp": "0x611fd808",
+      "type": "transfer_out",
+      "asset_and_id": "CRYST#3216",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xba873beb06ffc74bd8980c9fc1871aacb15719f1690955c23ec0f430e611b2a2",
+      "blockNum": "13083506",
+      "timestamp": "0x6123f9d0",
+      "type": "transfer_in",
+      "asset_and_id": "CRYST#3216",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x420cb97cc749e4fa9757e67dad83337cb991ecafa25d5a6e1bb109a870580672",
+      "blockNum": "13343122",
+      "timestamp": "0x6158fb20",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "CRYST#3216",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "CRYST#2603": [
+    {
+      "hash": "0xd98e7627f7f2ddffe0c672e81bf4be7eb7dd647c83bb4ff237bf7e914956c3e2",
+      "blockNum": "12993081",
+      "timestamp": "0x61118cbf",
+      "type": "buy",
+      "asset_and_id": "CRYST#2603",
+      "value_eth": -1.99,
+      "value_cad": -7900.499
+    },
+    {
+      "hash": "0x08f4253b7b19a8f6760ba3c7b4ad2b2c5f94e690b31deaf05db3583807c4237e",
+      "blockNum": "13063195",
+      "timestamp": "0x611fd808",
+      "type": "transfer_out",
+      "asset_and_id": "CRYST#2603",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xc20c43371b5ac0e3dfbb14ff026d7a5bbbe381955f9aac3e8d6e1e89bb6ef696",
+      "blockNum": "13083501",
+      "timestamp": "0x6123f99a",
+      "type": "transfer_in",
+      "asset_and_id": "CRYST#2603",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x6ff4f5aa12a9ce508e9fee87342c05a7dc25af01939261e792f3d59f5fc8879b",
+      "blockNum": "13343130",
+      "timestamp": "0x6158fb74",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "CRYST#2603",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "GFS#1164": [
+    {
+      "hash": "0x42396c2e2f527426214b8a892ab7548847c717d49e4ec66c2f22a76098ccd3fc",
+      "blockNum": "12994285",
+      "timestamp": "0x6111cdd1",
+      "type": "buy",
+      "asset_and_id": "GFS#1164",
+      "value_eth": -0.18,
+      "value_cad": -709.0668000000001
+    }
+  ],
+  "GFS#4299": [
+    {
+      "hash": "0x22fa31dc4ba724d7a38afadd5d8ef4e33aeacfbe3a41c80aabe6e62be3a4ad7c",
+      "blockNum": "12994350",
+      "timestamp": "0x6111d157",
+      "type": "buy",
+      "asset_and_id": "GFS#4299",
+      "value_eth": -0.48,
+      "value_cad": -1890.8448
+    },
+    {
+      "hash": "0x688415733f3e4d57b0bdedd35afca0d791da423a0725a390e01c1e584eb53b26",
+      "blockNum": "13686373",
+      "timestamp": "0x61a01be8",
+      "type": "sale",
+      "asset_and_id": "GFS#4299",
+      "value_eth": 0.0009,
+      "value_cad": 5.164704
+    }
+  ],
+  "GFS#8950": [
+    {
+      "hash": "0xfc0922bd367786d847397cf53094aa1945192510e646cf20c8ebf831156fa391",
+      "blockNum": "12994369",
+      "timestamp": "0x6111d236",
+      "type": "buy",
+      "asset_and_id": "GFS#8950",
+      "value_eth": -0.85,
+      "value_cad": -3348.371
+    },
+    {
+      "hash": "0xeb91e2e8121e4df06686ce83d73e2e73f2d37af75dd934acae6014ed52938cf6",
+      "blockNum": "13686368",
+      "timestamp": "0x61a01bc2",
+      "type": "sale",
+      "asset_and_id": "GFS#8950",
+      "value_eth": 0.0009,
+      "value_cad": 5.164704
+    }
+  ],
+  "ARTSTR#2786": [
+    {
+      "hash": "0xc5e19c945a3d24cdd25c04a96e01bfe5e9629e09f0fe29b4dc67f0f6ded70af4",
+      "blockNum": "13001272",
+      "timestamp": "0x611338a0",
+      "type": "buy",
+      "asset_and_id": "ARTSTR#2786",
+      "value_eth": -0.05,
+      "value_cad": -197.60000000000002
+    }
+  ],
+  "ARTSTR#2787": [
+    {
+      "hash": "0x6a938990429f8bef8b1fb46cff95ae9947150f4a67713fbf1490a7f8f68b4381",
+      "blockNum": "13001272",
+      "timestamp": "0x611338a0",
+      "type": "buy",
+      "asset_and_id": "ARTSTR#2787",
+      "value_eth": -0.05,
+      "value_cad": -197.60000000000002
+    }
+  ],
+  "ARTSTR#2791": [
+    {
+      "hash": "0xf884983486378d6d0e051d093d66631e12c4bdd5adb76319b090d37f19601524",
+      "blockNum": "13001291",
+      "timestamp": "0x611339a5",
+      "type": "buy",
+      "asset_and_id": "ARTSTR#2791",
+      "value_eth": -0.05,
+      "value_cad": -197.60000000000002
+    }
+  ],
+  "ARTSTR#2792": [
+    {
+      "hash": "0xd25dff27345968386a534c6bbee00cbc717f7e184bdbdf9b5e79aa70dd8c2731",
+      "blockNum": "13001294",
+      "timestamp": "0x611339c5",
+      "type": "buy",
+      "asset_and_id": "ARTSTR#2792",
+      "value_eth": -0.05,
+      "value_cad": -197.60000000000002
+    }
+  ],
+  "ARTSTR#2793": [
+    {
+      "hash": "0x2f7a5be3f3d58134b2dfea0cd8650be64624b011d70495a97a6f215c67e3e8c9",
+      "blockNum": "13001294",
+      "timestamp": "0x611339c5",
+      "type": "buy",
+      "asset_and_id": "ARTSTR#2793",
+      "value_eth": -0.05,
+      "value_cad": -197.60000000000002
+    }
+  ],
+  "ARTSTR#2798": [
+    {
+      "hash": "0x4be9b466b9adb567e7e9d3a9c6a9c18cef287ee8bc0220aa9906d04daa0d819f",
+      "blockNum": "13001332",
+      "timestamp": "0x61133be3",
+      "type": "buy",
+      "asset_and_id": "ARTSTR#2798",
+      "value_eth": -0.05,
+      "value_cad": -197.60000000000002
+    }
+  ],
+  "AKUTHEMOONGODOPENEDITIONBYMICAHJOHNSON#10900011277": [
+    {
+      "hash": "0x220ab738f5b6b83b8fb7194b04d6d978587b561fdb9d2c458ef257ed67185e34",
+      "blockNum": "13004590",
+      "timestamp": "0x6113e7a0",
+      "type": "transfer_in",
+      "asset_and_id": "AKUTHEMOONGODOPENEDITIONBYMICAHJOHNSON#10900011277",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x6df55394768b48a89ae78dc2fecca56ab59d13f1dad3967196b984bbd7c65422",
+      "blockNum": "13037776",
+      "timestamp": "0x611aaaf3",
+      "type": "sale",
+      "asset_and_id": "AKUTHEMOONGODOPENEDITIONBYMICAHJOHNSON#10900011277",
+      "value_eth": 0.74375,
+      "value_cad": 2941.5386875000004
+    }
+  ],
+  "HRTP#190": [
+    {
+      "hash": "0x003f8b522b840964ac27c7ba9096a3977e1ae2b0b3e78938a395bf2db2884875",
+      "blockNum": "13004767",
+      "timestamp": "0x6113f16a",
+      "type": "buy",
+      "asset_and_id": "HRTP#190",
+      "value_eth": -0.3,
+      "value_cad": -1185.6
+    }
+  ],
+  "DECIPHERBYJUSTINROILAND#31600060367": [
+    {
+      "hash": "0xcd09d758463919d5e9cf65e3fcbae5ec524b51f59673937c01f4aa6ebdf5f682",
+      "blockNum": "13013783",
+      "timestamp": "0x6115c74d",
+      "type": "buy",
+      "asset_and_id": "DECIPHERBYJUSTINROILAND#31600060367",
+      "value_eth": -0.05,
+      "value_cad": -208.115
+    }
+  ],
+  "THEBESTICOULDDOOPENEDITIONBYJUSTINROILAND#6300010166": [
+    {
+      "hash": "0xa01a4569f3534371e162aecf7c8e4d28f2b66f17a9da785cb747b4c43622a15c",
+      "blockNum": "13013917",
+      "timestamp": "0x6115ce8e",
+      "type": "transfer_in",
+      "asset_and_id": "THEBESTICOULDDOOPENEDITIONBYJUSTINROILAND#6300010166",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "DECIPHERBYJUSTINROILAND#31600060114": [
+    {
+      "hash": "0xb2d6453c9b2361b89a1b038ae5a5db0a93230c60624e587374159bb49cda5e1d",
+      "blockNum": "13013919",
+      "timestamp": "0x6115ce98",
+      "type": "transfer_in",
+      "asset_and_id": "DECIPHERBYJUSTINROILAND#31600060114",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "THEBESTICOULDDOOPENEDITIONBYJUSTINROILAND#6300020073": [
+    {
+      "hash": "0xbe0ab13c0863dd5de638321c2dcbbd3b34b5d1c90d469c69875896635c401a14",
+      "blockNum": "13013919",
+      "timestamp": "0x6115ce98",
+      "type": "transfer_in",
+      "asset_and_id": "THEBESTICOULDDOOPENEDITIONBYJUSTINROILAND#6300020073",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "THEMAGICOFMOVINGIMAGESOPENEDITIONBYJUSTINROILAND#24300020056": [
+    {
+      "hash": "0xe3564fc4e408db49895b0038357d162b2c5d8a989c8982f716551d61fab9730e",
+      "blockNum": "13013922",
+      "timestamp": "0x6115cee6",
+      "type": "transfer_in",
+      "asset_and_id": "THEMAGICOFMOVINGIMAGESOPENEDITIONBYJUSTINROILAND#24300020056",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "DECIPHERBYJUSTINROILAND#31600050289": [
+    {
+      "hash": "0x2bad139b6af0312fb1954c00abdf819f8ae290aa8cdf699ba3c0e81198254673",
+      "blockNum": "13013923",
+      "timestamp": "0x6115ceea",
+      "type": "transfer_in",
+      "asset_and_id": "DECIPHERBYJUSTINROILAND#31600050289",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "DECIPHERBYJUSTINROILAND#31600050407": [
+    {
+      "hash": "0x62179b5a1ffa32a9a1cfd1eccf0b69841ab209b850e20f6ce4b6e7935c465889",
+      "blockNum": "13013925",
+      "timestamp": "0x6115cf09",
+      "type": "transfer_in",
+      "asset_and_id": "DECIPHERBYJUSTINROILAND#31600050407",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "DECIPHERBYJUSTINROILAND#31600050247": [
+    {
+      "hash": "0x619c53d293340cfe743db6334a7e9639bcd636b02b297949d84b7203cc443ff9",
+      "blockNum": "13013926",
+      "timestamp": "0x6115cf1e",
+      "type": "transfer_in",
+      "asset_and_id": "DECIPHERBYJUSTINROILAND#31600050247",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "0x495f947276749ce646f68ac8c248420045cb7b5e#2.792427028112358e+76": [
+    {
+      "hash": "0x30f1a3d238709f3017f18014acbe14a5f2c9e17bdfcbf2a9e7cd35bd7ef37b7e",
+      "blockNum": "13014018",
+      "timestamp": "0x6115d411",
+      "type": "buy",
+      "asset_and_id": "0x495f947276749ce646f68ac8c248420045cb7b5e#2.792427028112358e+76",
+      "value_eth": -1,
+      "value_cad": -4162.3
+    }
+  ],
+  "0x495f947276749ce646f68ac8c248420045cb7b5e#8.827979746823538e+76": [
+    {
+      "hash": "0x83da64f171afd9d4fbb8fb62c55ea8291a0f06859a6d02696c0639ec609f95e1",
+      "blockNum": "13014276",
+      "timestamp": "0x6115e0c3",
+      "type": "buy",
+      "asset_and_id": "0x495f947276749ce646f68ac8c248420045cb7b5e#8.827979746823538e+76",
+      "value_eth": -0.029,
+      "value_cad": -120.70670000000001
+    }
+  ],
+  "DEADTIX#1429": [
+    {
+      "hash": "0xde61c4071f7416b49125dd14f023d05d309fb640dde2c5651c8da62c4a389738",
+      "blockNum": "13026950",
+      "timestamp": "0x61187459",
+      "type": "swap",
+      "asset_and_id": "DEADTIX#1429",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "DEADTIX#2659": [
+    {
+      "hash": "0xde61c4071f7416b49125dd14f023d05d309fb640dde2c5651c8da62c4a389738",
+      "blockNum": "13026950",
+      "timestamp": "0x61187459",
+      "type": "swap",
+      "asset_and_id": "DEADTIX#2659",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "DEADTIX#1185": [
+    {
+      "hash": "0xde61c4071f7416b49125dd14f023d05d309fb640dde2c5651c8da62c4a389738",
+      "blockNum": "13026950",
+      "timestamp": "0x61187459",
+      "type": "swap",
+      "asset_and_id": "DEADTIX#1185",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "DEADTIX#3374": [
+    {
+      "hash": "0xde61c4071f7416b49125dd14f023d05d309fb640dde2c5651c8da62c4a389738",
+      "blockNum": "13026950",
+      "timestamp": "0x61187459",
+      "type": "swap",
+      "asset_and_id": "DEADTIX#3374",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "DEADTIX#8322": [
+    {
+      "hash": "0xde61c4071f7416b49125dd14f023d05d309fb640dde2c5651c8da62c4a389738",
+      "blockNum": "13026950",
+      "timestamp": "0x61187459",
+      "type": "swap",
+      "asset_and_id": "DEADTIX#8322",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "PLASMABEARS#5.78960446186581e+76": [
+    {
+      "hash": "0xb9f4810f53fa5341f4877f968f4f3add8094cc3dafd716cc2a7ede1dc43d1ee7",
+      "blockNum": "13034121",
+      "timestamp": "0x6119ecaa",
+      "type": "buy",
+      "asset_and_id": "PLASMABEARS#5.78960446186581e+76",
+      "value_eth": -0.32414542475340563,
+      "value_cad": -1281.9983963539669
+    },
+    {
+      "hash": "0x4ff83cc5e3eff1834707fed9107953470f5830333656e6f539866c6ee55f4ab6",
+      "blockNum": "13034159",
+      "timestamp": "0x6119eede",
+      "type": "buy",
+      "asset_and_id": "PLASMABEARS#5.78960446186581e+76",
+      "value_eth": -0.35,
+      "value_cad": -1384.2535
+    },
+    {
+      "hash": "0xcd4997689ea5eb8ab9533bdb68320caafd52b6971dd55bd80b084a03fe04e71c",
+      "blockNum": "13343150",
+      "timestamp": "0x6158fc7c",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "PLASMABEARS#5.78960446186581e+76",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x7ba1a395e65970701c8588ba9577b91ea6158b6047188cab8d4617c01cfd741d",
+      "blockNum": "13343152",
+      "timestamp": "0x6158fc9a",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "PLASMABEARS#5.78960446186581e+76",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "HLGB#5783": [
+    {
+      "hash": "0x550379429ae939863d1c2f469c19b7aae6351ca486906573bb1ed46457d67712",
+      "blockNum": "13051589",
+      "timestamp": "0x611d784b",
+      "type": "buy",
+      "asset_and_id": "HLGB#5783",
+      "value_eth": -0.05,
+      "value_cad": -190.954
+    }
+  ],
+  "Emblem.pro#4459761": [
+    {
+      "hash": "0x6a409be3ea128e2598e3f9905ba238d89c2b36b11c3ca9da26b2a72b93553aca",
+      "blockNum": "13064355",
+      "timestamp": "0x612013ac",
+      "type": "buy",
+      "asset_and_id": "Emblem.pro#4459761",
+      "value_eth": -0.042,
+      "value_cad": -176.49996000000002
+    }
+  ],
+  "BAC#4509": [
+    {
+      "hash": "0xf72f8367095d791b986f8f7391ee91a413dda5db8fd71b67d41e7b6a8d3bdfe7",
+      "blockNum": "13064360",
+      "timestamp": "0x612013fe",
+      "type": "buy",
+      "asset_and_id": "BAC#4509",
+      "value_eth": -0.04,
+      "value_cad": -168.0952
+    }
+  ],
+  "Emblem.pro#7683661": [
+    {
+      "hash": "0x03fed2d9e84986bc42ef51efa5deab307c7780c9535c260d0c957e0f0b8b7e37",
+      "blockNum": "13064384",
+      "timestamp": "0x61201537",
+      "type": "buy",
+      "asset_and_id": "Emblem.pro#7683661",
+      "value_eth": -0.0785,
+      "value_cad": -329.88683000000003
+    },
+    {
+      "hash": "0x06c78a7d90295770214f7b5b3b3d624bc64d77996c54cebf4316f30da73228c9",
+      "blockNum": "13343122",
+      "timestamp": "0x6158fb20",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "Emblem.pro#7683661",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "null#603": [
+    {
+      "hash": "0x7423170bc22f8fde1739d379f202708e8c9be528e43b94a9cafc00ae4afb0086",
+      "blockNum": "13083391",
+      "timestamp": "0x6123f3df",
+      "type": "buy",
+      "asset_and_id": "null#603",
+      "value_eth": -0.67,
+      "value_cad": -2750.5577000000003
+    }
+  ],
+  "BLOCKS#131000508": [
+    {
+      "hash": "0x9ed849aa70794c7de424a20281d0f4b4eae29393ead69c04abcef3ee1a94c450",
+      "blockNum": "13090676",
+      "timestamp": "0x61256c8b",
+      "type": "buy",
+      "asset_and_id": "BLOCKS#131000508",
+      "value_eth": -5.75,
+      "value_cad": -22950.205
+    },
+    {
+      "hash": "0x426eacab824a753c15b137ab051d422bdf62732ab2f515bc9973118ea16c1ee5",
+      "blockNum": "13144119",
+      "timestamp": "0x6130516d",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "BLOCKS#131000508",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xc4413a13ee146319230cb9911d10238600c7dea83c4b93ef41df8092364d43fa",
+      "blockNum": "13631438",
+      "timestamp": "0x6194a673",
+      "type": "sale",
+      "asset_and_id": "BLOCKS#131000508",
+      "value_eth": 0.99,
+      "value_cad": 5360.9193
+    }
+  ],
+  "BKC#521": [
+    {
+      "hash": "0xd13ce4a1fd11ae73d038c2971f61a69e9817666284389c848cdcf7a62c0c5f0b",
+      "blockNum": "13090866",
+      "timestamp": "0x61257789",
+      "type": "buy",
+      "asset_and_id": "BKC#521",
+      "value_eth": -0.45,
+      "value_cad": -1796.103
+    }
+  ],
+  "null#4.9416815810193056e+76": [
+    {
+      "hash": "0x9b6a5048c1795449ebff2d812ca5875c5aa715258ec47631f17feb2ef7eeca41",
+      "blockNum": "13094559",
+      "timestamp": "0x612636ab",
+      "type": "buy",
+      "asset_and_id": "null#4.9416815810193056e+76",
+      "value_eth": -0.05100567423593337,
+      "value_cad": -206.8392302750417
+    }
+  ],
+  "BLOCKS#131000949": [
+    {
+      "hash": "0x3bd5e01ffbfd8faf364bd4a848cf0cf2037547324d1cef4db1de4af6918e88d4",
+      "blockNum": "13096495",
+      "timestamp": "0x61269f82",
+      "type": "transfer_in",
+      "asset_and_id": "BLOCKS#131000949",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x8a32cb68a1ec9f24132f8d0f2c3080388acca2c41197ccc8b1c3ead4c28d8bdc",
+      "blockNum": "13144139",
+      "timestamp": "0x61305266",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "BLOCKS#131000949",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "BLOCKS#131000395": [
+    {
+      "hash": "0xb4e11d3fe63d7b0df7f9b17ec3dd9303f786bc36ab7a6563ea520fb3333d4630",
+      "blockNum": "13096895",
+      "timestamp": "0x6126b471",
+      "type": "buy",
+      "asset_and_id": "BLOCKS#131000395",
+      "value_eth": -4,
+      "value_cad": -16220.88
+    },
+    {
+      "hash": "0x02047e6c8b6fd008eea3cd30d8d67a6c7ec7ef7110613a354a43cee38e7562e6",
+      "blockNum": "13144130",
+      "timestamp": "0x61305209",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "BLOCKS#131000395",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "0x495f947276749ce646f68ac8c248420045cb7b5e#8.284913132913156e+76": [
+    {
+      "hash": "0x91790d892e4c324f4c68bd328b8ae50a6f6fa23d84cfaa7ad93aadbdbfff6d6f",
+      "blockNum": "13122063",
+      "timestamp": "0x612bd63c",
+      "type": "buy",
+      "asset_and_id": "0x495f947276749ce646f68ac8c248420045cb7b5e#8.284913132913156e+76",
+      "value_eth": -0.05,
+      "value_cad": -203.45950000000002
+    }
+  ],
+  "DEADFELLAZ#4799": [
+    {
+      "hash": "0x0d722d8ed6565e26aa79b24f620f0744419623a4bb0038427b0650429e263156",
+      "blockNum": "13123051",
+      "timestamp": "0x612c082b",
+      "type": "buy",
+      "asset_and_id": "DEADFELLAZ#4799",
+      "value_eth": -0.21,
+      "value_cad": -854.5299
+    },
+    {
+      "hash": "0x355d6e26f4909f9c7c1bf122e58912128929e27ddc8878792d9d3bf86a2f032c",
+      "blockNum": "13271256",
+      "timestamp": "0x614a3e61",
+      "type": "sale",
+      "asset_and_id": "DEADFELLAZ#4799",
+      "value_eth": 0.4625,
+      "value_cad": 1631.0108750000002
+    }
+  ],
+  "BLOCKS#131000907": [
+    {
+      "hash": "0x21dd4165106c38da91578a23e04e6bfc5bed03fdd93660564159dc3cd53b26e7",
+      "blockNum": "13123070",
+      "timestamp": "0x612c08f4",
+      "type": "buy",
+      "asset_and_id": "BLOCKS#131000907",
+      "value_eth": -4.2069,
+      "value_cad": -17118.675411
+    },
+    {
+      "hash": "0x7058e498f56507dadb2bae9fc371ac47b2e62b63f10a37736a8e85dab2a89d46",
+      "blockNum": "13144126",
+      "timestamp": "0x613051cf",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "BLOCKS#131000907",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "Emblem.pro#4257991": [
+    {
+      "hash": "0x50b08c6010111363cb6bcb4b2d1f178215a50db516df2768de981395094916ee",
+      "blockNum": "13126400",
+      "timestamp": "0x612cb7d8",
+      "type": "buy",
+      "asset_and_id": "Emblem.pro#4257991",
+      "value_eth": -0.46,
+      "value_cad": -1870.0748
+    },
+    {
+      "hash": "0xf5dd79dbf80bbae488a42f6c6ecf8eeb8c853340d2479624a1ae960f913184c5",
+      "blockNum": "13143844",
+      "timestamp": "0x613043bd",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "Emblem.pro#4257991",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "Emblem.pro#7017001": [
+    {
+      "hash": "0xd64bd09ea3c42868471c2acce0c13926b7848ec05f7d6e2cbf5a9565d2abb0b7",
+      "blockNum": "13126417",
+      "timestamp": "0x612cb8ce",
+      "type": "buy",
+      "asset_and_id": "Emblem.pro#7017001",
+      "value_eth": -0.5,
+      "value_cad": -2032.69
+    },
+    {
+      "hash": "0xb6246cce699fa233f272c961be54e6314a3c54a2073013df597f540b39d33949",
+      "blockNum": "13343176",
+      "timestamp": "0x6158fda5",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "Emblem.pro#7017001",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "0x495f947276749ce646f68ac8c248420045cb7b5e#3.854399958718048e+76": [
+    {
+      "hash": "0xe3cee8ede34cae4c05c6a740475f0032b61acef769eed2b9749951aabe46dabd",
+      "blockNum": "13140090",
+      "timestamp": "0x612f818d",
+      "type": "buy",
+      "asset_and_id": "0x495f947276749ce646f68ac8c248420045cb7b5e#3.854399958718048e+76",
+      "value_eth": -3.25,
+      "value_cad": -15575.755
+    },
+    {
+      "hash": "0x8d9c3796dac5d799df24691cd7e26b4cc252564932d289927fcfa3cb0bbe51bf",
+      "blockNum": "13144098",
+      "timestamp": "0x6130508a",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "0x495f947276749ce646f68ac8c248420045cb7b5e#3.854399958718048e+76",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "CAPTCHA#5563": [
+    {
+      "hash": "0x58bb6465335035e2290a846430e662852909d2f011d4134bb20149fa9264c0ff",
+      "blockNum": "13146476",
+      "timestamp": "0x6130cf00",
+      "type": "buy",
+      "asset_and_id": "CAPTCHA#5563",
+      "value_eth": -0.05,
+      "value_cad": -237.9755
+    }
+  ],
+  "ENCRYPTAS#348": [
+    {
+      "hash": "0xaac0c0c04e1a7a593ee6cbb5f59e59694413f85427907f8a2e33cd956da937b9",
+      "blockNum": "13148710",
+      "timestamp": "0x61314175",
+      "type": "buy",
+      "asset_and_id": "ENCRYPTAS#348",
+      "value_eth": -0.168,
+      "value_cad": -799.5976800000001
+    }
+  ],
+  "UNU#155": [
+    {
+      "hash": "0x91dfc4f5edf161b6baf70b0580571eeda8f33d0e5fe1d6f4160f97cab79343e9",
+      "blockNum": "13178993",
+      "timestamp": "0x61376e05",
+      "type": "buy",
+      "asset_and_id": "UNU#155",
+      "value_eth": -0.05,
+      "value_cad": -216.67950000000002
+    }
+  ],
+  "WPXM#696": [
+    {
+      "hash": "0xdbae231fa9e5ccd5691d5a88d6b506b518f81a1f95cb9c4dc531b13c683e238f",
+      "blockNum": "13272246",
+      "timestamp": "0x614a71a4",
+      "type": "transfer_in",
+      "asset_and_id": "WPXM#696",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "TerraNullius#889": [
+    {
+      "hash": "0x39188b516a1066a06f9904464f096bc50d7597cb7c9af30aa1235f417af31c5b",
+      "blockNum": "13311636",
+      "timestamp": "0x61527f96",
+      "type": "transfer_in",
+      "asset_and_id": "TerraNullius#889",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x2b2794c8e7a00f004e3c29e99166a00003b7986994016206afa6d76b9ac9e895",
+      "blockNum": "13317081",
+      "timestamp": "0x61539ec4",
+      "type": "sale",
+      "asset_and_id": "TerraNullius#889",
+      "value_eth": 0.2418,
+      "value_cad": 863.303376
+    }
+  ],
+  "TerraNullius#1006": [
+    {
+      "hash": "0x92b7219ba5ba09ad950971af6e9ca76c9b7a327398a8fb2f773605af124310dd",
+      "blockNum": "13311646",
+      "timestamp": "0x61527fe5",
+      "type": "transfer_in",
+      "asset_and_id": "TerraNullius#1006",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x3ba2e1720b55d19fbe76d4654b523561c40ee55c3e88200b80d87b429973b43f",
+      "blockNum": "13314623",
+      "timestamp": "0x61531e75",
+      "type": "sale",
+      "asset_and_id": "TerraNullius#1006",
+      "value_eth": 0.24375,
+      "value_cad": 870.2655
+    }
+  ],
+  "TerraNullius#1086": [
+    {
+      "hash": "0x9cdc3838a3f9a7e14470c954d245f7c6223d971329b385a1e3f6f622934bf3f2",
+      "blockNum": "13311652",
+      "timestamp": "0x61528029",
+      "type": "transfer_in",
+      "asset_and_id": "TerraNullius#1086",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "TerraNullius#1274": [
+    {
+      "hash": "0x951989858c16442f1859937412c58bb52fd20ba581285624101623d51b94b702",
+      "blockNum": "13311660",
+      "timestamp": "0x615280c2",
+      "type": "transfer_in",
+      "asset_and_id": "TerraNullius#1274",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "Emblem.pro#10163715933179712": [
+    {
+      "hash": "0x9b7c0bfb6f83702b212d5e8567cdeaecb97c0cbdf4143b9552ad93f3a460836d",
+      "blockNum": "13323731",
+      "timestamp": "0x6154fc62",
+      "type": "buy",
+      "asset_and_id": "Emblem.pro#10163715933179712",
+      "value_eth": -2.369,
+      "value_cad": -8589.188540000001
+    },
+    {
+      "hash": "0x2ce51e75bae3ac9e8ff5c17ecc4ca3606c0e1cfd2599aafcec3fe16630bfb557",
+      "blockNum": "13323978",
+      "timestamp": "0x61550a7f",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "Emblem.pro#10163715933179712",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "null#1704485": [
+    {
+      "hash": "0x73318e60a0728aa5bcd420e9bbf5ec2b6a522f74f83c90ada7411802d662700d",
+      "blockNum": "13328765",
+      "timestamp": "0x61560717",
+      "type": "transfer_in",
+      "asset_and_id": "null#1704485",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "null#1740930": [
+    {
+      "hash": "0x81fed7675840e4ae563772b14a9a325b160fba1729faa3e6a8a5fba306f249bd",
+      "blockNum": "13333655",
+      "timestamp": "0x615709a5",
+      "type": "transfer_in",
+      "asset_and_id": "null#1740930",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "0x7deb7bce4d360ebe68278dee6054b882aa62d19c#7": [
+    {
+      "hash": "0xa3e12162ef196db71a8cc1067954645598067665d4af336765a2af1ad547073f",
+      "blockNum": "13340886",
+      "timestamp": "0x615886d1",
+      "type": "buy",
+      "asset_and_id": "0x7deb7bce4d360ebe68278dee6054b882aa62d19c#7",
+      "value_eth": -0.5,
+      "value_cad": -2113.175
+    }
+  ],
+  "0x7deb7bce4d360ebe68278dee6054b882aa62d19c#8": [
+    {
+      "hash": "0x25684fa807453bf5a6a367d543077a51845d557ce494f1a48668f93ed06dd59d",
+      "blockNum": "13340914",
+      "timestamp": "0x615887fe",
+      "type": "buy",
+      "asset_and_id": "0x7deb7bce4d360ebe68278dee6054b882aa62d19c#8",
+      "value_eth": -0.5,
+      "value_cad": -2113.175
+    }
+  ],
+  "null#3.912578071242713e+76": [
+    {
+      "hash": "0xd26d33b8dd0997a4f8a5661235de7dab81ae878e569efdb4ec23b1853006abad",
+      "blockNum": "13343206",
+      "timestamp": "0x6158ff9c",
+      "type": "buy",
+      "asset_and_id": "null#3.912578071242713e+76",
+      "value_eth": -0.00148839942427315,
+      "value_cad": -6.295825376715726
+    }
+  ],
+  "[NFT]#17413": [
+    {
+      "hash": "0xd9e3b237b06ab80a662a4e136ae17ca910a99388311da46989ad44ed2fa6a332",
+      "blockNum": "13347689",
+      "timestamp": "0x6159edd4",
+      "type": "buy",
+      "asset_and_id": "[NFT]#17413",
+      "value_eth": -4,
+      "value_cad": -16919.72
+    },
+    {
+      "hash": "0x6be9451db9137aff74b8da639758c07bbfadfcae63e574b53efb1c361914a8a7",
+      "blockNum": "13347703",
+      "timestamp": "0x6159ee98",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "[NFT]#17413",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "GIFT#409": [
+    {
+      "hash": "0xe77a7949c3bdaa5afac68a0744df5fb7e67b8f51b244a3d5ef31ba441172d80a",
+      "blockNum": "13353109",
+      "timestamp": "0x615b0e74",
+      "type": "buy",
+      "asset_and_id": "GIFT#409",
+      "value_eth": -0.15,
+      "value_cad": -636.225
+    }
+  ],
+  "Emblem.pro#135480934841581": [
+    {
+      "hash": "0x57848bee24671855a7e8e1473d3d8a6f1090783804d277da68c214882c33088d",
+      "blockNum": "13353176",
+      "timestamp": "0x615b11cd",
+      "type": "buy",
+      "asset_and_id": "Emblem.pro#135480934841581",
+      "value_eth": -0.99,
+      "value_cad": -4199.085
+    }
+  ],
+  "Emblem.pro#17799231807642840": [
+    {
+      "hash": "0x35f0bcb0990c6f6f9672abc8f4b2cc7ad0fd05c4481cc1514dafe77ffbcda443",
+      "blockNum": "13410371",
+      "timestamp": "0x6166e50a",
+      "type": "buy",
+      "asset_and_id": "Emblem.pro#17799231807642840",
+      "value_eth": -2,
+      "value_cad": -8930.62
+    },
+    {
+      "hash": "0xcfe7725fb56f70ef5796cf4e7886280cc77882184be1ea45b5cbf9bd712fb7be",
+      "blockNum": "13410384",
+      "timestamp": "0x6166e591",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "Emblem.pro#17799231807642840",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "Emblem.pro#41935894810880360": [
+    {
+      "hash": "0xcc257aa89b657e413f2d4a3123447428302256a4f6db0b2cb529542fca0b53f1",
+      "blockNum": "13439346",
+      "timestamp": "0x616ce57a",
+      "type": "buy",
+      "asset_and_id": "Emblem.pro#41935894810880360",
+      "value_eth": -1.1,
+      "value_cad": -5099.809
+    },
+    {
+      "hash": "0xfc3d612567e8f6825185112a77068f9caa1aa9d896284c368eab41361f7da41c",
+      "blockNum": "13439351",
+      "timestamp": "0x616ce5ac",
+      "type": "transfer_in_and_out",
+      "asset_and_id": "Emblem.pro#41935894810880360",
+      "value_eth": 0,
+      "value_cad": 0
+    }
+  ],
+  "GD#4317": [
+    {
+      "hash": "0xcb2a85aafc80da66b373a7934b09a0b87a554d14ffc06db07cfd1f08261f762d",
+      "blockNum": "13515715",
+      "timestamp": "0x617ca5fa",
+      "type": "buy",
+      "asset_and_id": "GD#4317",
+      "value_eth": -0.2,
+      "value_cad": -1063.644
+    }
+  ],
+  "BLOCKS#131000444": [
+    {
+      "hash": "0x3bca63f7ea5acb14d7262cc91337622331e6dbe58cf913bfe260e405da65c138",
+      "blockNum": "13532910",
+      "timestamp": "0x61803a65",
+      "type": "buy",
+      "asset_and_id": "BLOCKS#131000444",
+      "value_eth": -1,
+      "value_cad": -5343
+    }
+  ],
+  "BRAIN#2000941": [
+    {
+      "hash": "0x97ada2b55cefda83ef716860df542e512f4428a875b514b51026eb9c792be4b6",
+      "blockNum": "13622347",
+      "timestamp": "0x6192bfef",
+      "type": "buy",
+      "asset_and_id": "BRAIN#2000941",
+      "value_eth": -0.1,
+      "value_cad": -569.157
+    }
+  ],
+  "null#9.560867378883948e+76": [
+    {
+      "hash": "0xff82a9dc7bafc1994d6e6146e99bc02aedca0678a7240f20e4a7a44ab58608a6",
+      "blockNum": "13647705",
+      "timestamp": "0x61980c38",
+      "type": "buy",
+      "asset_and_id": "null#9.560867378883948e+76",
+      "value_eth": -0.011656015456005631,
+      "value_cad": -63.183180181596924
+    }
+  ],
+  "RSHOE#206": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#206",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#207": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#207",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#208": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#208",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#209": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#209",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#210": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#210",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#211": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#211",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#212": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#212",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#213": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#213",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#214": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#214",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#215": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#215",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#216": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#216",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#217": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#217",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#218": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#218",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#219": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#219",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#220": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#220",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#221": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#221",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#222": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#222",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#223": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#223",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#224": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#224",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#225": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#225",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#226": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#226",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "RSHOE#227": [
+    {
+      "hash": "0xefa8620b967da612324602c37877379259d256fa8a6e13defed3ba26e34208d0",
+      "blockNum": "13678943",
+      "timestamp": "0x619e8be5",
+      "type": "swap",
+      "asset_and_id": "RSHOE#227",
+      "value_eth": -0.08,
+      "value_cad": -434.436
+    }
+  ],
+  "0x7deb7bce4d360ebe68278dee6054b882aa62d19c#5": [
+    {
+      "hash": "0xee7e3e2ea8d26331997f3f4a1aaeb934411381f55be0dbb317581a0cede5da21",
+      "blockNum": "13685104",
+      "timestamp": "0x619fd7f4",
+      "type": "transfer_in",
+      "asset_and_id": "0x7deb7bce4d360ebe68278dee6054b882aa62d19c#5",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0xee7e3e2ea8d26331997f3f4a1aaeb934411381f55be0dbb317581a0cede5da21",
+      "blockNum": "13685104",
+      "timestamp": "0x619fd7f4",
+      "type": "transfer_in",
+      "asset_and_id": "0x7deb7bce4d360ebe68278dee6054b882aa62d19c#5",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x3d682d7cd78af033dd3bae5c877dfe720deb65f665b41e4307839c027c254ddb",
+      "blockNum": "13691641",
+      "timestamp": "0x61a1360c",
+      "type": "sale",
+      "asset_and_id": "0x7deb7bce4d360ebe68278dee6054b882aa62d19c#5",
+      "value_eth": 0.0891,
+      "value_cad": 459.89856000000003
+    }
+  ],
+  "STroop#788": [
+    {
+      "hash": "0x360379953a30bc2b1229e1a0fb42ff0c3f1410ffc2694d0da98597479e7fa437",
+      "blockNum": "13704509",
+      "timestamp": "0x61a3e76e",
+      "type": "swap",
+      "asset_and_id": "STroop#788",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x3fa0a296c1ee3944c439d0dee47a0558b17cc3e65731eb44374d2f8f3a16c2fc",
+      "blockNum": "13716541",
+      "timestamp": "0x61a6762f",
+      "type": "sale",
+      "asset_and_id": "STroop#788",
+      "value_eth": 0.18,
+      "value_cad": 1060.5852
+    }
+  ],
+  "STroop#789": [
+    {
+      "hash": "0x360379953a30bc2b1229e1a0fb42ff0c3f1410ffc2694d0da98597479e7fa437",
+      "blockNum": "13704509",
+      "timestamp": "0x61a3e76e",
+      "type": "swap",
+      "asset_and_id": "STroop#789",
+      "value_eth": 0,
+      "value_cad": 0
+    },
+    {
+      "hash": "0x6193eaf05d9605be1f0054997416ddc64f0cdf16e09b4f73ff0e032f1fba6a35",
+      "blockNum": "13716534",
+      "timestamp": "0x61a675f7",
+      "type": "sale",
+      "asset_and_id": "STroop#789",
+      "value_eth": 0.18,
+      "value_cad": 1060.5852
+    }
+  ],
+  "0xa3f226d6633ca531c1f8e26cfbf724b1eee9202e#9": [
+    {
+      "hash": "0xcc315cd8c86529f221459a7fd8dba1621eac55e2201c43057e853c620345008f",
+      "blockNum": "13714037",
+      "timestamp": "0x61a5f189",
+      "type": "buy",
+      "asset_and_id": "0xa3f226d6633ca531c1f8e26cfbf724b1eee9202e#9",
+      "value_eth": -1.25,
+      "value_cad": -7365.175
+    }
+  ]
+}

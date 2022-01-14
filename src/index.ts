@@ -1,273 +1,345 @@
 import fetch from 'node-fetch';
-
 import fs from 'fs';
+import { address_ledger, address_main, etherscan_api_key, starting_block, ending_block } from './config.js';
+import { historical_eth_prices } from './helper.js';
+import { get_and_write_transfers, get_transfer_transactions, get_transfer_transactions_from_file, sort_transactions_from_map, Transfer, TransferTransaction, write_transfer_transactions_map } from './transfer.js';
+import { text } from 'stream/consumers';
+import { main_helixir } from './helixir.js';
 
-// function thats fetching the data from the api
-interface Transaction {
-  type: string;
+
+interface EtherScanTransaction {
+  blockNumber: string;
+  timeStamp: string;
   hash: string;
-  blockNum: string;
+  nonce: string;
+  blockHash: string;
+  transactionIndex: string;
   from: string;
   to: string;
   value: string;
-  erc721TokenId: string;
-  asset: string;
-  category: string;
+  gas: string;
+  gasPrice: string;
+  gasUsed: string;
+  isError: string;
+  txreceipt_status: string;
+  input: string;
+  contractAddress: string;
+  cumulativeGasUsed: string;
+  confirmations: string;
 }
 
-interface BundledTransaction {
-  hash: string;
-  blockNum: string;
-  in: Transaction[];
-  out: Transaction[];
-  timestamp: string;
+
+// function that gets transactions for a specific address
+async function get_transactions_for_address(address: string) {
+  const normal_transactions = await get_transactions_from_etherscan(address, starting_block, ending_block, 'txlist');
+  // const internal_transactions = await get_transactions_from_etherscan(address, starting_block, 'latest', 'txlistinternal');
+  // const erc20_transactions = await get_transactions_from_etherscan(address, starting_block, 'latest', 'tokentx');
+  // const erc721_transactions = await get_transactions_from_etherscan(address, starting_block, 'latest', 'tokennfttx');
+  return normal_transactions;
 }
 
-const alchemy_api_url = "https://eth-mainnet.alchemyapi.io/v2/Sb4CeL4EzyZ-j_QrNFWgP2963hPvJ51Z"
-
-
-async function get_transactions() {
-  const fromBlock = "0x" + (13398055).toString(16)
-  console.log(fromBlock);
-
-  const hashes = new Map();
-
-  // DATA TO
-
-  const response_to = await fetch(alchemy_api_url, {
-    method: 'POST',
-    body: JSON.stringify({
-      "jsonrpc": "2.0",
-      "id": 0,
-      "method": "alchemy_getAssetTransfers",
-      "params": [{
-        "fromBlock": fromBlock,
-        "toBlock": "latest",
-        "toAddress": "0x0d7C9DB889858b9F6954608e36199104Dd530dA0",
-        // "maxCount": "0x5",
-        // "category": [
-        //   "token"
-        // ]
-      }],
-
-    }),
-  });
-
-  const data_to = await response_to.json() as any;
-  console.log(data_to);
-  const transfers_from = data_to.result.transfers as Transaction[];
-  for (const transfer of transfers_from) {
-    const timestamp = await get_timestamp(transfer.blockNum);
-    if (!hashes.has(transfer.hash)) {
-      const hash_transfer = {
-        in: [transfer],
-        blockNum: transfer.blockNum,
-        hash: transfer.hash,
-        timestamp,
-      }
-      hashes.set(transfer.hash, hash_transfer);
-    } else {
-      if (!hashes.get(transfer.hash).in) {
-        hashes.get(transfer.hash).in = [transfer];
-      } else {
-        hashes.get(transfer.hash).in.push(transfer);
-      }
-    }
+// function that does a call to the etherscan api and gets all transactions for a specific address
+async function get_transactions_from_etherscan(address: string, start_block: number, end_block: number | string, action: string) {
+  const url = "https://api.etherscan.io/api?module=account&action=" + action + "&address=" + address + "&startblock=" + start_block + "&endblock=" + end_block + "&page=1&offset=0&sort=asc&apikey=" + etherscan_api_key;
+  const response = await fetch(url);
+  try {
+    const data = await response.json() as any;
+    const transactions = data.result as EtherScanTransaction[];
+    return transactions;
+  } catch (error) {
+    console.log(response);
+    console.log(error);
   }
 
-  // DATA FROM
-  const response_from = await fetch(alchemy_api_url, {
-    method: 'POST',
-    body: JSON.stringify({
-      "jsonrpc": "2.0",
-      "id": 0,
-      "method": "alchemy_getAssetTransfers",
-      "params": [{
-        "fromBlock": fromBlock,
-        "toBlock": "latest",
-        "fromAddress": "0x0d7C9DB889858b9F6954608e36199104Dd530dA0",
-        // "maxCount": "0x5",
-        // "category": [
-        //   "token"
-        // ]
-      }],
-
-    }),
-  });
-
-  const data_from = await response_from.json() as any;
-  console.log(data_from);
-  const transfers = data_from.result.transfers as Transaction[];
-  for (const transfer of transfers) {
-    const timestamp = await get_timestamp(transfer.blockNum);
-    if (!hashes.has(transfer.hash)) {
-      const hash_transfer = {
-        out: [transfer],
-        blockNum: transfer.blockNum,
-        hash: transfer.hash,
-        timestamp,
-      }
-      hashes.set(transfer.hash, hash_transfer);
-    } else {
-      if (!hashes.get(transfer.hash).out) {
-        hashes.get(transfer.hash).out = [transfer];
-      } else {
-        hashes.get(transfer.hash).out.push(transfer);
-      }
-    }
-  }
-
-
-  for (const hash of hashes.keys()) {
-    // console.log("HASH = ", hash);
-    console.log(hashes.get(hash));
-    console.log("\n");
-  }
-
-  return hashes;
 }
 
 
-// function that gets transactions and writes them to a file
-function write_transactions_map(hashes_map: Map<any, any>) {
-  console.log(hashes_map);
-  const hashes_obj = Object.fromEntries(hashes_map);
-  fs.writeFileSync('transactions.json', JSON.stringify(hashes_obj, null, 2));
+// // function that gets the gas fee from the transaction hash
+// async function get_gas_fee(hash: string) {
+//   const response = await fetch(alchemy_api_url, {
+//     method: 'POST',
+//     body: JSON.stringify({
+//       "jsonrpc": "2.0",
+//       "id": 0,
+//       "method": "alchemy_getTransaction",
+//       "params": [{
+//         "hash": hash,
+//       }],
+//     }),
+//   });
+//   const data = await response.json() as any;
+//   const gas_fee = data.result.gasFee;
+//   return gas_fee;
+// }
+
+
+// function that writes transactions to file
+function write_transactions(transactions: any[]) {
+  const json_transactions = JSON.stringify(transactions, null, 2);
+  fs.writeFileSync('transactions_etherscan.json', json_transactions);
 }
 
 
-async function get_transactions_from_file() {
-  const data = fs.readFileSync('transactions.json');
-  const hashes_obj = JSON.parse(data.toString());
-  const hashes_list = [] as BundledTransaction[];
-  for (const i in hashes_obj) {
-    const new_obj = {
-      hash: hashes_obj[i].hash,
-      blockNum: hashes_obj[i].blockNum,
-      in: hashes_obj[i].in,
-      out: hashes_obj[i].out,
-      timestamp: hashes_obj[i].timestamp,
-    }
-    hashes_list.push(new_obj);
-  }
-  // const hashes_map = Object.fromEntries(hashes_obj);
-  console.log(hashes_list);
-
-  return hashes_list;
-}
-
-// function that sorts the transactions by block number
-function sort_transactions(transactions: any[]) {
-  transactions.sort((a, b) => {
-    return a.blockNum - b.blockNum;
-  });
+// function that reads transactions from file
+function read_transactions_from_file() {
+  const transactions = JSON.parse(fs.readFileSync('transactions_etherscan.json', 'utf8'));
   return transactions;
 }
 
-// functions that writes transactions to a csv file
-function write_csv(transactions: any[]) {
+// function that gets the historical cad price of eth on the day of the transaction and adds it to the transaction
+async function add_cad_price_to_transaction(transactions: any[]) {
 
-  const price_data = read_csv();
+  const price_data = historical_eth_prices();
 
-  //map that stores the running average of the price
-  const price_map = new Map();
+  let average_eth_price = 0;
+  let eth_balance = 0;
+  let total_profit = 0;
+  let total_gas_fee = 0;
+  let total_gas_fee_cad = 0;
 
-  let csv_string = "hash,blockNum,timestamp,date,eth_price,from,to,category_in,value_in,tokenId_in,asset_in,category_out,value_out,tokenId_out,asset_out\n";
-  for (const bundled_transaction of transactions) {
+  for (const tx of transactions) {
+
+    // // skip if not from or to address_main
+    // if (tx.from !== address_main && tx.to !== address_main) {
+    //   continue;
+    // }
+
+
 
     // transform hex timestamp to date
-    const date = new Date(parseInt(bundled_transaction.timestamp, 16) * 1000);
+    const dateInt = parseInt(tx.timestamp, 16);
+    const date = new Date(dateInt * 1000);
     // keep only year, month, day form date
     const date_string = date.toISOString().slice(0, 10);
-    console.log("date:", date_string);
 
-    // get eth price at date
+    tx.date = date_string;
+    // console.log("date:", date_string);
     const eth_price = price_data.get(date_string);
-    console.log("eth_price:", eth_price);
+    // console.log("eth_price:", eth_price);
+    tx.cad_price = eth_price;
 
+    let eth_diff = 0;
 
-    const base_csv_string = bundled_transaction.hash + "," + bundled_transaction.blockNum + "," + bundled_transaction.timestamp + "," + date_string + "," + eth_price + ",";
-
-    // add in transactions
-    if (bundled_transaction.in) {
-      for (const in_transaction of bundled_transaction.in) {
-        const price = eth_price * in_transaction.value;
-        const asset_and_id = in_transaction.asset + in_transaction.tokenId ? "#" + in_transaction.tokenId : "";
-        price_map.set(asset_and_id, price);
-        csv_string += base_csv_string + in_transaction.from + "," + in_transaction.to + "," + in_transaction.category + "," + in_transaction.value + "," + in_transaction.erc721TokenId + "," + in_transaction.asset + "\n";
-      }
+    if (tx.author === address_main || tx.author === address_ledger) {
+      eth_diff -= tx.gasFee;
+      total_gas_fee += tx.gasFee;
+      total_gas_fee_cad += tx.gasFee * tx.cad_price;
+      tx.total_gas_fee = total_gas_fee;
+      tx.total_gas_fee_cad = total_gas_fee_cad;
     }
 
-    // add out transactions
-    if (bundled_transaction.out) {
-      for (const out_transaction of bundled_transaction.out) {
-        const asset_and_id = out_transaction.asset + out_transaction.tokenId ? "#" + out_transaction.tokenId : "";
-        const price = price_map.get(asset_and_id);
-        csv_string += base_csv_string + out_transaction.from + "," + out_transaction.to + ",,,," + "," + out_transaction.category + "," + out_transaction.value + "," + out_transaction.erc721TokenId + "," + out_transaction.asset + "\n";
+    for (const transfer of tx.transfers) {
+
+      let profit = 0;
+
+      if (transfer.asset === "CARTE") {
+        transfer.erc721TokenId = parseInt(transfer.rawContract.value, 16);
+        transfer.category = "erc721";
+      }
+      else if (transfer.asset === "ETH") {
+        if (transfer.to == "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2") {
+          transfer.description = "weth_wrap";
+          transfer.amount = transfer.value;
+          transfer.value = 0;
+        }
+        else if (transfer.from == "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2") {
+          transfer.description = "weth_unwrap";
+          transfer.amount = transfer.value;
+          transfer.value = 0;
+        }
+      }
+
+      // console.log("transfer:", transfer);
+
+      if ((transfer.category == "internal" || transfer.category == "external") || (transfer.category == "erc20" && transfer.asset === "WETH")) {
+
+        transfer.amount = "";
+        transfer.tokenId = "";
+
+        if (tx.status == 1) {
+
+          // tx.gas_fee = tx.gasPrice * tx.gasUsed;
+          // tx.gas_fee_cad = tx.gas_fee / 1000000000000000000 * eth_price;
+
+          // if ((transfer.to == address_main || transfer.from == address_main)) {
+          // console.log("yoo");
+
+          if (transfer.type == "in") {
+            // type = "in"
+            eth_diff += transfer.value;
+
+            average_eth_price = (average_eth_price * eth_balance + transfer.value * eth_price) / (eth_balance + transfer.value);
+          }
+          else if (transfer.type == "out") {
+            // type = "out"
+            profit = (eth_price - average_eth_price) * (transfer.value);
+
+            transfer.value = -transfer.value;
+            eth_diff += transfer.value;
+
+          }
+          transfer.cad_value = transfer.value * eth_price;
+        }
+
+        // }
+
+
+      } else if (transfer.category == "erc721" || transfer.erc721TokenId) {
+        transfer.category = "erc721";
+        transfer.amount = 1;
+        transfer.asset += " | " + transfer.rawContract.address;
+        transfer.tokenId = parseInt(transfer.erc721TokenId, 16);
+
+      } else if (transfer.category == "erc20") {
+        transfer.amount = transfer.value;
+        transfer.value = ""
+        transfer.tokenId = ""
+
+
+      } else if (transfer.category == "erc1155") {
+
+        transfer.amount = transfer.erc1155Metadata[0].value;
+        transfer.tokenId = parseInt(transfer.erc1155Metadata[0].tokenId, 16);
+        transfer.asset = transfer.rawContract.address;
+      }
+
+      if (eth_diff != 0) {
+        eth_balance += eth_diff;
+        transfer.eth_diff = eth_diff;
+        transfer.eth_balance = eth_balance;
+        eth_diff = 0;
+      }
+
+      if (!transfer.value) transfer.value = "";
+      if (!transfer.cad_value && transfer.cad_value !== 0) transfer.cad_value = "";
+      if (!transfer.eth_balance) transfer.eth_balance = "";
+      if (!transfer.eth_diff) transfer.eth_diff = "";
+      transfer.profit = profit;
+      total_profit += profit;
+      tx.total_profit = total_profit;
+    }
+    tx.average_eth_price = average_eth_price;
+    tx.eth_balance = eth_balance;
+  }
+  console.log("eth_balance:", eth_balance);
+  console.log("total_profit:", total_profit);
+  console.log("total_gas_fee_cad:", total_gas_fee_cad);
+  transactions[transactions.length - 1].total_gas_fee_cad = total_gas_fee_cad;
+
+}
+
+// function that writes transactions to a csv file
+function write_transactions_to_csv(transactions: any[]) {
+  let csv_string = "date, hash, from, to, status, type, value, gas fee, eth_diff ,eth_balance, historical cad price, average price, cad profit, category, asset, description, amount, tokenId, cad price, cad value\n";
+  for (const tx of transactions) {
+    let first = true;
+    for (const transfer of tx.transfers) {
+      if (first) {
+        csv_string += tx.date + "," + tx.hash + "," + transfer.from + "," + transfer.to + "," + tx.status + "," + transfer.type + "," + transfer.value + "," + tx.gasFee + "," + transfer.eth_diff + "," + transfer.eth_balance + "," + tx.cad_price + "," + tx.average_eth_price + "," + transfer.profit + "," + transfer.category + "," + transfer.asset + "," + transfer.description + "," + transfer.amount + "," + transfer.tokenId + "," + transfer.cad_value + "\n";
+        first = false;
+      } else {
+        csv_string += "," + "," + transfer.from + "," + transfer.to + "," + "," + transfer.type + "," + transfer.value + "," + "," + transfer.eth_diff + "," + transfer.eth_balance + "," + "," + "," + transfer.profit + "," + transfer.category + "," + transfer.asset + "," + transfer.description + "," + transfer.amount + "," + transfer.tokenId + "," + tx.cad_price + "," + transfer.cad_value + "\n";
       }
     }
+    csv_string += "\n";
   }
-  fs.writeFileSync('transactions.csv', csv_string);
-}
+  // add total profit from last transaction
+  csv_string += ", profit(cad), gas fees(cad)\n";
+  csv_string += "total profit ," + transactions[transactions.length - 1].total_profit + "," + transactions[transactions.length - 1].total_gas_fee_cad + "," + "\n";
 
-// function that gets timestamp from block number with web3
-async function get_timestamp(blockNumHex: string) {
-  const response = await fetch(alchemy_api_url, {
-    method: 'POST',
-    body: JSON.stringify({
-      "jsonrpc": "2.0",
-      "id": 0,
-      "method": "eth_getBlockByNumber",
-      "params": [
-        blockNumHex,
-        true
-      ],
-    }),
-  });
-  const data = await response.json() as any;
-  return data.result.timestamp;
+  fs.writeFileSync('transactions_etherscan.csv', csv_string);
 }
 
 
-// function that reads price data from a csv file
-function read_csv() {
-  const data = fs.readFileSync('eth-cad_price.csv');
-  const csv_data = data.toString();
-  const lines = csv_data.split('\n');
+async function create_transaction_map_from_etherscan_and_transfers(transfer_transactions: TransferTransaction[], etherscan_transactions: EtherScanTransaction[]) {
+  const transactions_map = new Map<string, TransferTransaction>();
 
-  // map of date to price
-  const price_data = new Map();
-
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i]
-    // split line by pair of quotes
-    const split_line = line.split(/"([^"]+)"/);
-    // const split_line = line.split('","');
-
-    // const line_data = line.split('"');
-    const date = split_line[1];
-    const price = split_line[3].replace(',', '')
-    // transform "Apr 01, 2021" date to "2021-04-01"
-    const date_obj = new Date(date);
-    // keep only year, month, day form date
-    const date_string = date_obj.toISOString().slice(0, 10);
-
-    price_data.set(date_string, price);
+  for (const tx of transfer_transactions) {
+    transactions_map.set(tx.hash, tx);
   }
-  console.log(price_data);
 
-  return price_data;
+  for (const tx of etherscan_transactions) {
+    if (!transactions_map.has(tx.hash)) {
+
+      const transfer = {
+        date: "",
+        hash: tx.hash,
+        from: tx.from,
+        to: tx.to,
+        status: tx.txreceipt_status,
+        type: "",
+        value: Number(tx.value) / 1000000000000000000,
+        gasFee: "",
+        eth_balance: "",
+        category: "external",
+        asset: "",
+        amount: "",
+        tokenId: "",
+        cad_price: "",
+        cad_value: "",
+        blockNum: tx.blockNumber,
+        erc721TokenId: "",
+      } as Transfer
+      // timstamp to hex (13232 to 0x5b2)
+      const timeStampHex = Number(tx.timeStamp).toString(16);
+      const transaction = {
+        hash: tx.hash,
+        status: Number(tx.txreceipt_status),
+        author: tx.from,
+        gasFee: Number(tx.gasPrice) * Number(tx.gasUsed) / 1000000000000000000,
+        blockNum: tx.blockNumber,
+        transfers: [transfer],
+        timestamp: timeStampHex,
+      } as TransferTransaction;
+      transactions_map.set(tx.hash, transaction);
+    }
+  }
+  return transactions_map;
 }
-
 
 async function main() {
-  const transactions = await get_transactions_from_file();
-  // const transactions = await get_transactions();
-  // write_transactions_map(transactions)
-  const sorted_transactions = sort_transactions(transactions);
-  write_csv(sorted_transactions);
-  console.log(sorted_transactions);
-  // const price_data = read_csv();
+  console.log("ledger address", address_ledger);
+
+  const transactions_etherscan_main = await get_transactions_for_address(address_main)
+  // console.log("transactions:", transactions_etherscan_main);
+
+  const transactions_etherscan_ledger = await get_transactions_for_address(address_ledger)
+  const all_etherscan_transactions = transactions_etherscan_main.concat(transactions_etherscan_ledger);
+  // write_transactions(transactions_main);
+
+  // console.log("transactions_main:", transactions_main);
+
+  // write_transactions_to_csv(transactions_main);
+
+  // const transactions_raw = await get_transfer_transactions();
+  // write_transfer_transactions_map(transactions_raw)
+
+  const transactions = await get_transfer_transactions_from_file();
+
+
+  // console.log("transactions_map:", transactions_map);
+
+
+  // // console.log("transactions:", transactions);
+
+  // // console.log("transactions:", transactions);
+
+  const transactions_map = await create_transaction_map_from_etherscan_and_transfers(transactions, all_etherscan_transactions);
+
+  const sorted_transactions = sort_transactions_from_map(transactions_map);
+  add_cad_price_to_transaction(sorted_transactions);
+  // console.log("transactions:", transactions);
+  write_transactions_to_csv(sorted_transactions);
+
+  // get_and_write_transfers()
+
+  console.log("done");
+
+
 }
 
-main();
+// main();
+
+main_helixir()
+
+
